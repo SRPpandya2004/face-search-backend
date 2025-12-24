@@ -144,7 +144,7 @@ Uvicorn – ASGI server
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/face-search-backend.git
+git clone https://github.com/SRPpandya2004/face-search-backend.git
 cd face-search-backend
 
 2️⃣ Create Virtual Environment
@@ -231,6 +231,7 @@ GitHub Secrets
 
 Environment variables
 
+'''
 
 🎓 Academic Use
 
