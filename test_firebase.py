@@ -1,9 +1,15 @@
 import uuid
 from app.core.firebase_storage import FirebaseStorageClient
+import os
+
+load_dotenv()
+
+FIREBASE_BUCKET = os.getenv("FIREBASE_BUCKET_NAME")
+FIREBASE_KEY_PATH = os.getenv("FIREBASE_CREDENTIALS")
 
 client = FirebaseStorageClient(
-    bucket_name="face-search-project-36f9e.firebasestorage.app",  # 🔴 CHANGE THIS
-    service_account_path="secrets/firebase_service_account.json",  # 🔴 CHANGE THIS
+    bucket_name=FIREBASE_BUCKET,  # 🔴 CHANGE THIS
+    service_account_path=FIREBASE_KEY_PATH,  # 🔴 CHANGE THIS
 )
 
 url = client.upload_file(
