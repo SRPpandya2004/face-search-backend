@@ -132,6 +132,7 @@ Available APIs:
 
 /health → Health check
 
+
 🧪 Example Workflow
 
 Upload multiple photos using /upload-photo
@@ -141,6 +142,7 @@ Faces are detected and stored as embeddings
 Upload a query image using /search
 
 System returns all matching photos where the person appears
+
 
 🔐 Security Note
 
@@ -152,6 +154,7 @@ Bucket names
 
 Environment variables
 
+
 ❌ are NOT included in this repository
 
 Use:
@@ -161,6 +164,7 @@ Use:
 GitHub Secrets
 
 Environment variables
+
 
 🎓 Academic Use
 
@@ -186,7 +190,7 @@ For academic and educational use only.
 _________________________________________________________________________________________
 
 
-
+###
 # face-search-backend
 It is face classification Project Start on 02-12-2025
 
