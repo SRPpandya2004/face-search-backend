@@ -31,3 +31,8 @@ This is the backend API for a Face Search application using:
 - Vector search via FAISS
 - User management
 - Admin face ingestion
+
+
+_____________
+# Face Search Backend
+Python + FastAPI + FAISS + InsightFace (Free Plan)
