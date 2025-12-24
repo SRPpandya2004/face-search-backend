@@ -188,7 +188,7 @@ For academic and educational use only.
 
 
 _________________________________________________________________________________________
-
+```bash
 
 ###
 # face-search-backend
