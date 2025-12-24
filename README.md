@@ -74,6 +74,72 @@ face-search-backend/
 
 ---
 
+_________________________________________________________________________________________
+
+
+##
+# face-search-backend
+It is face classification Project Start on 02-12-2025
+
+# Face Search Backend (FastAPI)
+
+This is the backend API for a Face Search application using:
+- FastAPI
+- InsightFace (CPU)
+- FAISS (CPU)
+- SQLite
+- Firebase Storage (optional)
+
+## Run locally
+
+1. Create virtual env
+   python -m venv env
+   env\Scripts\activate
+
+2. Install packages
+   pip install -r requirements.txt
+
+3. Run server
+   uvicorn app.main:app --reload
+
+## Folder Structure
+(Insert tree here)
+
+## Features
+- Face upload
+- Face embedding extraction
+- Vector search via FAISS
+- User management
+- Admin face ingestion
+
+
+_____________
+# Face Search Backend
+Python + FastAPI + FAISS + InsightFace (Free Plan)
+
+
+Technology Stack
+Backend
+
+Python 3.10 / 3.11 (Recommended)
+
+FastAPI – REST API framework
+
+InsightFace (buffalo_l) – Face detection & embeddings
+
+ArcFace – Deep learning face recognition model
+
+FAISS (CPU) – Vector similarity search
+
+SQLite – Metadata storage (via SQLAlchemy)
+
+Firebase Cloud Storage – Image storage
+
+Uvicorn – ASGI server
+
+⚠️ GPU is not required. CPU-only setup is used. 
+
+
 ## ⚙️ How to Run Locally (Windows)
 
 ### 1️⃣ Clone the Repository
@@ -186,70 +252,5 @@ Face Recognition research prototypes
 
 For academic and educational use only.
 
-
-_________________________________________________________________________________________
-
-
-##
-# face-search-backend
-It is face classification Project Start on 02-12-2025
-
-# Face Search Backend (FastAPI)
-
-This is the backend API for a Face Search application using:
-- FastAPI
-- InsightFace (CPU)
-- FAISS (CPU)
-- SQLite
-- Firebase Storage (optional)
-
-## Run locally
-
-1. Create virtual env
-   python -m venv env
-   env\Scripts\activate
-
-2. Install packages
-   pip install -r requirements.txt
-
-3. Run server
-   uvicorn app.main:app --reload
-
-## Folder Structure
-(Insert tree here)
-
-## Features
-- Face upload
-- Face embedding extraction
-- Vector search via FAISS
-- User management
-- Admin face ingestion
-
-
-_____________
-# Face Search Backend
-Python + FastAPI + FAISS + InsightFace (Free Plan)
-
-
-Technology Stack
-Backend
-
-Python 3.10 / 3.11 (Recommended)
-
-FastAPI – REST API framework
-
-InsightFace (buffalo_l) – Face detection & embeddings
-
-ArcFace – Deep learning face recognition model
-
-FAISS (CPU) – Vector similarity search
-
-SQLite – Metadata storage (via SQLAlchemy)
-
-Firebase Cloud Storage – Image storage
-
-Uvicorn – ASGI server
-
-⚠️ GPU is not required. CPU-only setup is used. 
 
 _______________________________________________________________________________
