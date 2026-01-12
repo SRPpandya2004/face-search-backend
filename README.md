@@ -102,7 +102,7 @@ This is the backend API for a Face Search application using:
    uvicorn app.main:app --reload
 
 ## Folder Structure
-(Insert tree here)
+   As above given
 
 ## Features
 - Face upload
