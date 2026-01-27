@@ -1,4 +1,4 @@
-﻿albucore==0.0.24
+albucore==0.0.24
 albumentations==2.0.8
 annotated-doc==0.0.4
 annotated-types==0.7.0
@@ -90,4 +90,5 @@ typing_extensions==4.15.0
 urllib3==2.6.0
 uvicorn==0.38.0
 wcwidth==0.2.14
+
 
