@@ -4,9 +4,11 @@
 
 uvicorn app.main:app --port 8001   
 
+
 deactivate  
 ----------------------------------------------------------------------------------------
 #for Frontend Run
+#We have local Node.js so tozvtivate it
 
 $env:Path += ";C:\Program Files\nodejs\"                           
 >>                                                                                 
